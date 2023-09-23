@@ -8,49 +8,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f98f63fd9d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleconference/stylesheet/style.css">
 </head>
 <body>
     <header class="header">
-        <div class="container flex align">
-            <div class="brand-container">
-                <a class="brand" href="#">TracKL</a>
+        <div class="container">
+            <div class="flex">
+                <div class="brand-container">
+                   <a class="brand" href="#">TracKL</a>
+                </div>
+                <label class="bars" for="toggle">
+                   <i class="fa-solid fa-bars"></i>
+                </label>
+                <input id="toggle" type="checkbox">
+                    <nav class="nav">
+                        <ul class="flex">
+                            <li><a href="#">features</a></li>
+                            <li><a href="#">pricing</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </nav>
             </div>
-            <label class="bars"  for="toggle">
-                <i class="fa-solid fa-bars"></i>
-               </label>
-               <input id="toggle" type="checkbox">
-            <nav class="nav">
-                <ul class="flex">
-                    <li><a href="#">features</a></li>
-                    <li><a href="#">pricing</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
-            </nav>
+            <div class="heading margin-top center">
+                <h1>Track the learning <br>process schedule</h1>
+                <a class="btn top" href="#">Get 30 Days Trial</a>
+            </div>
         </div>
-     </header>
+    </header>
     <main>
         <!-- Hero -->
         <section class="hero">
             <div class="container ">
-                <div class="hero-header  margin-top">
-                    <h1>Track the learning <br>process schedule</h1>
-                    <a class="btn top" href="#">Get 30 Days Trial</a>
-                </div>
                 <div class="hero-img">
-                    <img class="width-full" src="assets/hero.png" alt="hero">
+                    <img class="width-full" src="./styleconference/assets/hero.png" alt="hero">
                 </div>
                 <div class="files flex margin-top">
-                    <a href="#.pdf"><img src="assets/pdf.png" alt="pdf"> PDF FILE </a>
-                    <a href="#.doc"><img src="assets/word.png" alt="word"> WORD FILE </a>
-                    <a href="#.png"><img src="assets/image.png" alt="png"> IMAGE FILE </a>
-                    <a href="#.mp4"><img src="assets/video.png" alt="video"> VIDEO FILE </a>
+                    <a href="#.pdf"><img src="./styleconference/assets/pdf.png" alt="pdf"> PDF FILE </a>
+                    <a href="#.doc"><img src="./styleconference/assets/word.png" alt="word"> WORD FILE </a>
+                    <a href="#.png"><img src="./styleconference/assets/image.png" alt="png"> IMAGE FILE </a>
+                    <a href="#.mp4"><img src="./styleconference/assets/video.png" alt="video"> VIDEO FILE </a>
                 </div>
                 <div></div>
             </div>
         </section>
-        <!-- learning section -->
+         <!-- learning section -->
         <section class="learnng margin-top">
             <div class="container flex">
                 <div class="flex-40">
@@ -61,17 +63,16 @@
                     </div>
                 </div>
                 <div class="flex-40">
-                <img class="width-full" src="assets/learning-graph.png" alt="learning graph">
+                    <img class="width-full" src="./styleconference/assets/learning-graph.png" alt="learning graph">
                 </div>
             </div>
         </section>
-        <!-- Score card -->
-        <section class="score-card">
+         <!-- Score card -->
+         <section class="score-card">
             <div class="container margin-top">
                 <div class="margin-top">
                     <h2>WEEKLY SCORE</h2>
                 </div>
-                
                 <div class="table width-full top">
                     <table>
                         <tr>
@@ -126,46 +127,39 @@
                 </div>
             </div>
         </section>
+        <!-- Pricing -->
         <section class="pricing flex ">
             <div class="container margin-top">
               <h2>join us and let's study <br> with your friends</h2>
-              <div class=" button-container top">
-                <span>Monthly</span>
-                <div class="switch-btn flex">
+              <div class=" button-container  flex top">
+                <span> Monthly </span>
+                <div class="switch-btn">
                     <div class="circular">
-                    
-                    </div>
+                </div>
                 </div>
                 <span>Yearly</span>
               </div>  
-              
               <div class="flex margin-top">
                 <div class="flex-48 width-full">
                     <h2>Basic</h2>
                     <p class="para top">it is a long established fact that a reader will be distracted by  readable</p>
                     <span>48</span>
                     <div></div>
-                    <div  class="subscription">
+                    <div class="subscription">
                         <div class="flex target align">
-                            <img  class="tick" src="assets/tick.png" alt="tick">  <p class="pricing-para">50 course a day</p>
-                      
-                        </div>
-                       
-                        <div class="flex target align">
-                            <img  class="tick" src="assets/tick.png" alt="tick">  <p class="pricing-para">4 forums a month</p>
-                      
+                            <img  class="tick" src="./styleconference/assets/tick.png" alt="tick">  <p class="pricing-para">50 course a day</p>
                         </div>
                         <div class="flex target align">
-                            <img  class="tick" src="assets/tick.png" alt="tick">  <p class="pricing-para">16 chapter a day</p>
-                      
+                            <img  class="tick" src="./styleconference/assets/tick.png" alt="tick">  <p class="pricing-para">4 forums a month</p>
                         </div>
                         <div class="flex target align">
-                            <img  class="tick" src="assets/cross.png" alt="tick">  <p class="pricing-para not-include">Private lession a week</p>
-                      
+                            <img  class="tick" src="./styleconference/assets/tick.png" alt="tick">  <p class="pricing-para">16 chapter a day</p>
                         </div>
                         <div class="flex target align">
-                            <img  class="tick" src="assets/cross.png" alt="tick">  <p class="pricing-para not-include">Get weekly reward</p>
-                      
+                            <img  class="tick" src="./styleconference/assets/cross.png" alt="tick">  <p class="pricing-para not-include">Private lession a week</p>
+                        </div>
+                        <div class="flex target align">
+                            <img  class="tick" src="./styleconference/assets/cross.png" alt="tick">  <p class="pricing-para not-include">Get weekly reward</p>
                         </div>
                     </div>
                     <div>
@@ -179,42 +173,35 @@
                     <div></div>
                     <div class="subscription">
                         <div class="flex target align">
-                            <img  class="tick" src="assets/tick.png" alt="tick">  <p class="pricing-para">50 course a day</p>
-                      
-                        </div>
-                       
-                        <div class="flex target align">
-                            <img  class="tick" src="assets/tick.png" alt="tick">  <p class="pricing-para">4 forums a month</p>
-                      
+                            <img  class="tick" src="./styleconference/assets/tick.png" alt="tick">  <p class="pricing-para">50 course a day</p>
                         </div>
                         <div class="flex target align">
-                            <img  class="tick" src="assets/tick.png" alt="tick">  <p class="pricing-para">16 chapter a day</p>
-                      
+                            <img  class="tick" src="./styleconference/assets/tick.png" alt="tick">  <p class="pricing-para">4 forums a month</p>
                         </div>
                         <div class="flex target align">
-                            <img  class="tick" src="assets/tick.png" alt="tick">  <p class="pricing-para">Private lession a week</p>
-                      
+                            <img  class="tick" src="./styleconference/assets/tick.png" alt="tick">  <p class="pricing-para">16 chapter a day</p>
                         </div>
                         <div class="flex target align">
-                            <img  class="tick" src="assets/tick.png" alt="tick">  <p class="pricing-para">Get weekly reward</p>
-                      
+                            <img  class="tick" src="./styleconference/assets/tick.png" alt="tick">  <p class="pricing-para">Private lession a week</p>
+                        </div>
+                        <div class="flex target align">
+                            <img  class="tick" src="./styleconference/assets/tick.png" alt="tick">  <p class="pricing-para">Get weekly reward</p>
                         </div>
                     </div>
                     <div>
                         <a class="pricing-btn popular-style" href="#">Get started</a>
                     </div>
                 </div>
-                
-              </div>    
-              <div class="trial margin-top">
-                <div >
-                    <h4>Start your 30 days free trial</h4>
-                    <a class="btn margin-top" href="#">Get Started</a>
-                </div>
+                </div>    
+                <div class="trial margin-top">
+                   <div >
+                      <h4>Start your 30 days free trial</h4>
+                      <a class="btn margin-top" href="#">Get Started</a>
+                   </div>
             </div>
         </section>
-        <!-- footer -->
-        <footer class="footer">
+         <!-- footer -->
+         <footer class="footer">
             <div class="container flex margin-top">
                 <div class="flex-20 ">
                     <a class="logo" href="#">TracKL</a>
@@ -235,7 +222,6 @@
                             <a class="para" href="#"><li>Schedule</li></a>
                          </ul>
                     </nav>
-                    
                 </div>
                 <div>
                     <nav>
@@ -245,21 +231,18 @@
                             <a class="para" href="#"><li>Career</li></a>
                             <a class="para" href="#"><li>FAQs</li></a>
                             <a class="para" href="#"><li>Security</li></a>
-                         </ul>
+                        </ul>
                     </nav>
-                    
                 </div>
                 <div>
                     <nav>
                         <ul>
                             <h5>Contact</h5>
                             <a class="para" href="#"><li>hello@trackl.io</li></a>
-                           
                             <a class="para" href="#"><li>(+00) 0000 000 000</li></a>
                             
-                         </ul>
+                        </ul>
                     </nav>
-                    
                 </div>
             </div>
         </footer>
