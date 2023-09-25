@@ -1,0 +1,72 @@
+//General style
+@import "variable";
+body{
+    line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+    position:relative;
+}
+
+.container{
+    max-width:1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.center {
+    text-align: center;
+}
+.margin-top{
+    margin-top:3rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.align{
+    align-items: center;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: $secondary; 
+    border-radius: 0.5rem;
+    color: $heading-color;
+    font-weight: 600;
+    font-size: 1.3rem;
+    
+}
+.flex-40{
+    flex: 0 0 40%;
+}
+.flex-48{
+    flex:0 1 48%
+}
+.flex-20{
+    flex: 0 1 20%;
+}
+h2{
+    font-size: 2.3rem;
+    color: $p-text;
+    font-weight: 600;
+}
+.para{
+    font-size: 1.3rem;
+    color: $text-color;
+    font-weight: 500;
+    padding: 0 0.9rem;
+}
+.width-full{
+    width: 100%;
+}
+.top{
+margin:2rem 0 ;
+}
+
