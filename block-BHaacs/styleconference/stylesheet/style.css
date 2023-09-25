@@ -459,7 +459,8 @@ tr:nth-child(2n+1) {
     text-transform: capitalize;
   }
   .files a {
-    display: block;
+    display: inline-block;
+    margin: 1rem 1rem;
   }
   .flex-40 img {
     margin-top: 2rem;
